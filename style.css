@@ -19,6 +19,11 @@
 }
 
 /* ----- BASE ----- */
+
+body{
+    background-color: #000;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -251,6 +256,31 @@ nav{
     text-decoration: none;
     margin: 30px 15px 30px 0;
 }
+.project-box .anch{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 53px;
+    background: rgb(74, 71, 71);
+    border-radius: 10px;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.project-box .anch-2{
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.project-box .anch:hover{
+    opacity: 0.5;
+}
 
 .proj-anchor{
     font-size: 12px;
@@ -455,7 +485,7 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 45%;
-    height: 350px;
+    height: 430px;
     text-decoration: none;
     background: var(--color-white);
     border-radius: 20px;
@@ -471,6 +501,9 @@ h3{
 .project-box label{
     font-size: 15px;
     color: #777;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .project-box::after, .contact-info::after{
     content: "";
@@ -493,6 +526,51 @@ h3{
     color: var(--color-white);
     z-index: 2;
 }
+
+.project-box:hover.project-box>.bckimg{
+    background-image: url("./pics/Screenshot\ 2024-06-19\ 174236.png");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.project-box:hover.project-box>.bckimg2{
+    background-image: url("./pics/Screenshot\ 2024-06-19\ 173236.png");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.project-box:hover.project-box>.bckimg3{
+    background-image: url("./pics/ai-voice-projects-header.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.project-box:hover.project-box>.bckimg4{
+    background-image: url("./pics/Imageg79l-1682602936960.webp");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
 
 
 
@@ -758,4 +836,47 @@ footer{
     45%{ background-color: #ed5909;}
     95%{ background-color: rgb(192,166,49);}
     
+}
+
+
+/*-----------New Styling------------------*/
+
+.bckimg{
+    background-image: url("./pics/Screenshot\ 2024-06-19\ 174236.png");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bckimg2{
+    background-image: url("./pics/Screenshot\ 2024-06-19\ 173236.png");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bckimg3{
+    background-image: url("./pics/ai-voice-projects-header.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bckimg4{
+    background-image: url("./pics/Imageg79l-1682602936960.webp");
+    background-size: cover;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
